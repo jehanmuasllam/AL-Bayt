@@ -1,14 +1,16 @@
-  <html>
+<html>
       <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <meta http-equiv="X-UA-Compatible" content="ie=edge">
           <link rel="stylesheet" href="HomeCss.css">
+          <!-- <link rel="stylesheet" href="Responsive.css"> -->
           <title> Home </title>
       </head>
       <body>
           <nav>
               <div class="studentportal">
+                <!-- <span class="menu-show" id="showMenu">&#9776</span> -->
                     <ul>
                         <li><a href="https://web2.aabu.edu.jo/nara/"> Employees portal</a></li>
                         <li><a href="https://student.aabu.edu.jo/nreg/">Student portal</a></li>
@@ -29,22 +31,44 @@
                   <h3> Jordan Universtiy AL-Bayt</h3>
               </div>
               <div class="menu">
+
                   <ul class="rmenu">
                       <li><a class="menu-item" href="Home.html">Home</a></li>
                       <li><a class="menu-item" href="#">About us</a>
                               <div class="sub-content">
                                 <div class="sub-drop">
                                   <ul>
-                                      <li><a href="#">Welcome</a></li>
-                                      <li><a href="https://www.aabu.edu.jo/EN/Pages/default.aspx" target="_block" >About AABU</a></li>
-                                      <li><a href="#" target="_block">About Mafraq</a></li>
-                                      <li><a href="#" target="_block">Managent team</a></li>
-                                      <li><a href="#" target="_block">Divan Division</a></li>
+                                      <li><a href="#" class="menu-item">Mission Statement</a>
+                                      <ul id="subx-menu" >
+                                        <li><a href="#" class="subx-item">AL AL-Bayt University is a Public University that was established by a Royal Decree on August 17, 1992. AL- al Bayt University is an academic establishment that attempts to promote the scientific, cultural, and civilized levels, work on keeping up with the technological developments in addition to following the modern directions of the higher education, encouraging the scientific research in order to carry out the applied and scientific researches.
+                                          Al Al-Bayt university as a non-profit University is trying to achieve the following activities:
+                                          AL AL-Bayt University provides Education: The University provides education to students in BSc, MSc, and PhD Levels. The university aim is to prepare a well-qualified students.
+                                          AL AL-Bayt University as a part of the community: the university is considered the communities and local government to be at the center of development and humanitarian efforts, therefore Al AL-Bayt University endeavors to support local communities by providing them with training and required consultation through consultation, technical, and community service center.
+                                          In 2019, the Unit of International Relations was established to help the “Internationalization” of Al Al-Bayt University. The Unit right now consists of two Divisions; International Projects Division, and Agreements Division.
+                                          The International Unit Main Objectives are:
+                                          Making strategic International partnership.
+                                          Promoting the staff and student exchange process.
+                                          Trying to maximize the external research funding opportunities.
+                                          Improving the university ranking internationally.
+                                          The International Relations Unit will try to make a difference to the University through promoting the Internationalization of the University. The main goal for the international unit is to promote the cooperation between the Al Al-Bayt University and the other partners worldwide. Also, the International unit is encouraging the exchange of students and research activities under any agreement especially under Erasmus+ </a></li>
+                                      </ul>
+                                      </li>
+                                      <li><a href="https://www.aabu.edu.jo/EN/Pages/default.aspx" target="_block" class="sub-item" >About AABU</a></li>
+                                      <li><a href="#" target="_block" class="sub-item">About Mafraq</a></li>
+                                      <li><a href="#" target="_block"class="sub-item">Managent team</a>
+                                                    <ul id="subx-menu">
+                                                      <li class="subx-item" ><img src="/IMG/IMG-20200531-WA0007.jpg"></li>
+                                                      <li><a class="subx-item">Malik AL-Essa, Head of International Projects Division</a></li>
+                                                      <li><a class="subx-item">Ahmad ALAdamat, Head of Divan</a></li>
+                                                      <li><a class="subx-item">Hanan Saleh, Head of Agreements Division</a></li>                                     
+                                                    </ul>
+                                      </li>
+                                      <li><a href="#" target="_block" class="sub-item">Divan Division</a></li>
                                   </ul>
                                 </div>
                               </div>
                             </li>
-                      <li><a class="menu-item" href=""> Announcements</a></li>
+                      <li><a class="menu-item" href="https://www.aabu.edu.jo/EN/Departments/InternationalRelations/Pages/Announcements.aspx"> Announcements</a></li>
                       <li><a class="menu-item" href=""> International Projects</a></li>
                       <li><a class="menu-item" href="">Agreements</a></li>
                       <li><a class="menu-item" href="#">Unit Divisions</a>
@@ -62,9 +86,9 @@
               </div>
           </nav>
                     <!--============ News-tape ========== -->
-                    <div id="News">
-                      <marquee bgcolor='#b6b4b4' width="106%" height="20px"  direction="left" scrolldelay="200"
-                      onmouseover="this.stop()" onmouseout="this.start()" style="padding: 15px 15px; font-family: florence, cursive; color: black; margin: 0;" >Welcome International Relations in AL AL-Bayt University.. 
+                    <div id="News" class="News">
+                      <marquee bgcolor='#b6b4b4' direction="left" scrolldelay="200"
+                      onmouseover="this.stop()" onmouseout="this.start()"  >Welcome International Relations in AL AL-Bayt University.. 
                       The Department of International Relations at Al-Bayt University is responsible for implementing and monitoring international partnership agreements and international projects with the university's partners</marquee>
                     </div>
                   <div class="Relations" > 
@@ -134,7 +158,6 @@
                       </div>
                       <!-- ============================ -->
                       <div class="the">
-
                       </div>
                       <!--=================== Footer ===================-->
                         <footer id="footer" class="footer">
@@ -154,7 +177,7 @@
                         <div class="info">
                             <h4>contact-info :</h4>
                             <ul>
-                            <li>Phone :<a href="#"> 0986232323</a></li>
+                            <li><a href="#"> 0986232323</a></li>
                             </ul>
                         </div>
                         <div class="follow">

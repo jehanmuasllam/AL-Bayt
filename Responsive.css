@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1200px){
+    .studentportal{
+        width: 100%;
+    }
+    .color{
+        height: 321px;
+    }
+    .logo{
+        width: 100%;
+        margin-left: -291px;
+        margin-top: 16px;
+    }
+    .logo img{
+        width: 8%;
+    }
+    .menu{
+        width: 100%;
+        margin-left: 175px;
+    }
+    .Relations{
+        width: 46%;
+    }
+    /* .Relations img{
+        width: 27%;
+        height: 150px;
+    } */
+}
